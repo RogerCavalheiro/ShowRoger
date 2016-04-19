@@ -4,15 +4,31 @@
 <%@page import="modelo.Pergunta"%>
 <%@page import="modelo.Jogo"  %>
 <%
-    Jogador jogador = (Jogador)session.getAttribute("jogador");
     Jogo jogo = new Jogo();
+    if(request.getParameter("btnConfirmar")!=null){
+        out.print("Foi o Confirmar");
+    } else{
+        if (request.getParameter("btnPular")!=null){
+            out.print("Aqui é pular");
+        }else
+            if(request.getParameter("btnParar")!=null){
+        out.print("Aqui é parar");
+            }else{
+                jogo.iniciar();
+            // Trecho execultado quando eu acesso
+            //o jogo pela primeira vez - PERGUNTA 01
     
-    PerguntaDAO perg = new PerguntaDAO();
+//    PerguntaDAO pergDAO = new PerguntaDAO();
+  //  List<Pergunta> lista = pergDAO.listar();
+    //jogo.setPerguntas(lista);
     
-    List<Pergunta> lista= perg.listar();
-    jogo.setPerguntas(lista);
-    Pergunta pergunta = jogo.getPerguntas().get(0);
     session.setAttribute("jogo",jogo);
+    Pergunta pergunta = jogo.getPerguntas().get(0);
+    // Até qui - primeira vez
+            }
+    }
+   
+    
     %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -27,7 +43,7 @@
               
             <h4 class="enunciado"><%=pergunta.getEnunciado()%></h4>
             <div class="opcoes">
-                <form action="fim.jsp" method="post">
+                <form action="pergunta.jsp" method="post">
                     <input type="radio" value="A" name="rdoPergunta" />
                     <%=pergunta.getA()%><br/>
                     <input type="radio" value="B" name="rdoPergunta" />
@@ -38,8 +54,8 @@
                    <%=pergunta.getD()%><br/>
                     <hr/>
                     <input type="submit" value="confirmar" />
-                     <input type="submit" value="pulou" /><%=jogo.getPulos()%>
-                      <input type="submit" value="parar" />
+                    <input type="submit" value="pulou" name="btnConfirmar" /><%=jogo.getPulos()%>
+                      <input type="submit" value="parar" name="btnPular" />(3)
                 </form>
                 
             </div>

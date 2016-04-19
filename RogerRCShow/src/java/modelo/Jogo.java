@@ -5,7 +5,10 @@
  */
 package modelo;
 
+import dao.PerguntaDAO;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -50,7 +53,46 @@ public class Jogo {
         this.pulos=pulos-1;
     }
     
-    public void acertouP(){
-        this.pontuacao=pontuacao+500;
+    public Integer acertouP(){
+        return pontuacao+500;
     }
+    public void iniciar(){
+        // carrega as perguntas
+        try{
+        PerguntaDAO dao = new PerguntaDAO();
+        this.setPerguntas(dao.listar());
+        }
+        catch (Exception ex) {
+            Logger.getLogger(Jogo.class.getName()).log(Level.SEVERE,null,ex);
+        
+        }
+    }
+    public boolean confirmar(String opcaomarcada){
+        if(opcaomarcada.equals(this.getPerguntas().get(0).getCerta()))
+        {
+            //exclue a pergunta atual
+            this.getPerguntas().remove(0);
+            this.setPontuacao(this.acertouP());
+            return true;
+        }
+        else{
+            return false;
+        }
+        }
+        
+    
+         public void Pontuacao(Integer pontuacao){
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    }
+    
+    public Integer AcertouP(){
+        return pontuacao * 2;
+    }
+    public Integer ErrouP(){
+        return pontuacao / 3;
+    }
+    public Integer ParouP(){
+        return pontuacao;
+    }
+    
 }

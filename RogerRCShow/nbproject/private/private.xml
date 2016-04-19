@@ -3,44 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/site/jogo.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/site/cadastrar-ok.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/cabecalho.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/jogador/upd-ok.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/pergunta/upd.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/src/conf/persistence.xml</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/jogador/add.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/cabecalho-index.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/rodape-index.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/categoria/list.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/jogo.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/perguntas.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/rodape.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/index.html</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/pergunta/upd-ok.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/categoria/upd.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/pergunta/add-ok.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/site/index.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/categoria/upd-ok.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/site/css/estilo.css</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/jogador/upd.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/src/java/dao/CategoriaDAO.java</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/site/fim.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/categoria/del-ok.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/src/java/dao/Conexao.java</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/categoria/add.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/pergunta/list.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/pergunta/add.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/pergunta/del-ok.jsp</file>
             <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/site/pergunta.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/jogador/list.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/build/generated/src/org/apache/jsp/site/index_jsp.java</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/index.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/categoria/add-ok.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/build/web/admin/categoria/del-ok.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/build/web/site/cadastrar-ok.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/jogador/add-ok.jsp</file>
-            <file>file:/C:/Users/TurtleDAO/Documents/NetBeansProjects/RogerRCShow/web/admin/jogador/del-ok.jsp</file>
         </group>
     </open-files>
 </project-private>

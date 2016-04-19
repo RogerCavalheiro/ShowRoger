@@ -6,7 +6,7 @@ import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 import modelo.Jogador;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-04-17T23:44:15")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2016-04-18T15:37:22")
 @StaticMetamodel(Ranking.class)
 public class Ranking_ { 
 
